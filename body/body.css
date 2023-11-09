@@ -1,0 +1,161 @@
+/* Reset some default styles */
+body, p, h1, h2, h3 {
+    
+    margin: auto;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Add general styles for your layout */
+#body1 {
+    margin: auto;
+    max-width: 1600px;
+    padding: 20px;
+}
+
+#main {
+    display: flex;
+}
+
+.first {
+    flex: 1;
+}
+
+.first .image {
+    width: 100%;
+}
+
+.second {
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+    background-color: #d2fdfd;
+    color: #000;
+}
+
+.main2 {
+    width: 100%;
+}
+
+#main2img {
+    width: 100%;
+}
+
+#main3 img,
+#main4 img {
+    width: 100%;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn button {
+    font-size: 30px;
+}
+
+#head {
+    text-align: center;
+    margin: 20px;
+    color: #191a1b;
+}
+
+#main5 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#main5 div {
+    flex: 1;
+    text-align: center;
+}
+
+#main5 div img {
+    width: 100%;
+}
+
+#main6 img {
+    width: 100%;
+}
+
+#main7 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#main7 div {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+}
+
+#main7 div a {
+    display: block;
+    color: #191a1b;
+}
+
+#main7 div img {
+    width: 100%;
+}
+
+#head1 {
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+#main9 {
+    display: flex;
+}
+
+#main9 div {
+    flex: 1;
+    text-align: center;
+}
+
+#main9 a {
+    color: white;
+}
+
+#main9 img {
+    width: 100%;
+}
+
+#main11 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#main11 div {
+    flex: 1;
+    text-align: center;
+}
+
+#main11 div img {
+    width: 100%;
+}
+
+#mini {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    #main5, #main11 {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 600px) {
+    #main7 {
+        flex-direction: column;
+    }
+}
+
